@@ -1,0 +1,34 @@
+:root {
+    --header : #FFCC99;
+    --main : #E6F2FF;
+    --aside : #B3D9FF;
+    --footer : #99CC99;
+}
+
+header {
+    background-color: var(--header);
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+main {
+    background-color: var(--main);
+    margin: 20px;
+    display: flex;
+}
+
+aside {
+    background-color: var(--aside);
+    border: 1px solid #CCC;
+}
+
+footer {
+    background-color: var(--footer);
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px 5px black;
+}
